@@ -1,0 +1,116 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+animation: fadein 0.6s;
+}
+
+@keyframes fadein{
+from{opacity:0; transform:translateY(20px)}
+to{opacity:1}
+}
+
+header{
+background:#111;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#ffd000;
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:#ffd000;
+}
+
+.hero{
+height:500px;
+background:url("https://images.unsplash.com/photo-1518770660439-4636190af475") center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+.section-title{
+font-size:35px;
+margin-bottom:20px;
+border-bottom:4px solid #ffd000;
+display:inline-block;
+}
+
+img{
+width:100%;
+border-radius:10px;
+margin:20px 0;
+}
+
+.skill{
+margin:20px 0;
+}
+
+.bar{
+height:20px;
+background:#ddd;
+border-radius:20px;
+overflow:hidden;
+}
+
+.bar div{
+height:100%;
+background:#ffd000;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin:20px 0;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:#ffd000;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.comment{
+background:#eee;
+padding:10px;
+margin-top:10px;
+border-radius:6px;
+}
