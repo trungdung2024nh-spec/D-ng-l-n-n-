@@ -234,3 +234,26 @@ background:#e67e22;
 width:75%;
 background:#e74c3c;
 }
+/* hiệu ứng chuyển trang */
+.fade-out{
+opacity:0;
+transition:opacity 0.5s;
+}
+
+.fade-in{
+opacity:1;
+transition:opacity 0.5s;
+}
+
+body{
+animation: fadePageIn 0.5s;
+}
+
+@keyframes fadePageIn{
+from{
+opacity:0;
+}
+to{
+opacity:1;
+}
+}
