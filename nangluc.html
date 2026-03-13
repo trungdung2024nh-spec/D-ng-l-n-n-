@@ -82,3 +82,19 @@ Tôi có khả năng phân tích các bài toán tin học phức tạp, chia nh
 
 </body>
 </html>
+<script>
+document.querySelectorAll("a").forEach(link=>{
+link.addEventListener("click",function(e){
+const href=this.getAttribute("href");
+
+if(href && !href.startsWith("#")){
+e.preventDefault();
+document.body.classList.add("fade-out");
+
+setTimeout(()=>{
+window.location=href;
+},500);
+}
+});
+});
+</script>
