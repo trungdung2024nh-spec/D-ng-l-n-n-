@@ -237,16 +237,16 @@ background:#e74c3c;
 /* hiệu ứng chuyển trang */
 .fade-out{
 opacity:0;
-transition:opacity 0.5s;
+transition:opacity 0.3s;
 }
 
 .fade-in{
 opacity:1;
-transition:opacity 0.5s;
+transition:opacity 0.3s;
 }
 
 body{
-animation: fadePageIn 0.5s;
+animation: fadePageIn 0.3s;
 }
 
 @keyframes fadePageIn{
