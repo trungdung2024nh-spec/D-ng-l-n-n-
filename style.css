@@ -64,3 +64,79 @@ font-weight:bold;
 nav a:hover{
 color:#ffd166;
 }
+.title{
+text-align:center;
+font-size:36px;
+margin-top:40px;
+}
+
+.comment-box{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.comment-box input,
+.comment-box textarea{
+padding:10px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.comment-box textarea{
+height:80px;
+resize:none;
+}
+
+.comment-box button{
+background:#4c6ef5;
+color:white;
+border:none;
+padding:10px;
+border-radius:20px;
+cursor:pointer;
+font-size:16px;
+}
+
+.comment-box button:hover{
+background:#364fc7;
+}
+
+#comments{
+max-width:700px;
+margin:30px auto;
+}
+
+.comment{
+background:white;
+padding:15px;
+border-radius:10px;
+margin-bottom:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+animation:fade 0.4s;
+}
+
+.comment b{
+font-size:18px;
+}
+
+.time{
+font-size:13px;
+color:gray;
+margin-left:10px;
+}
+
+.delete{
+float:right;
+color:red;
+cursor:pointer;
+font-size:14px;
+}
+
+@keyframes fade{
+from{opacity:0; transform:translateY(10px)}
+to{opacity:1; transform:translateY(0)}
+}
