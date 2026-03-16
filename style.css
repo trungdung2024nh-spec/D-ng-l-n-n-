@@ -274,6 +274,17 @@ transition:0.3s;
 img:hover{
 transform:scale(1.05);
 }
+nav a{
+font-size:26px;
+font-weight:bold;
+margin:15px;
+text-decoration:none;
+color:#333;
+}
+
+nav a:hover{
+color:#0077ff;
+}
 html{
 scroll-behavior: smooth;
 }
