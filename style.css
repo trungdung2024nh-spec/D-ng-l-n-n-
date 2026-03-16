@@ -248,7 +248,7 @@ transition:opacity 0.3s;
 }
 
 body{
-animation: fadePageIn 0.3s;
+animation: fadePageIn 0.15s;
 }
 
 @keyframes fadePageIn{
